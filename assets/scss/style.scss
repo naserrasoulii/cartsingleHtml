@@ -1,11 +1,13 @@
 @import "./fonts";
 @import "./colors";
-@import "./step";
+@import "./config";
 @import "./cart";
 @import "./allprice";
-body {
-  font-family: "iransans";
-}
+
 a {
   text-decoration: none;
+}
+.margin1rem {
+  margin-top: 1rem;
+  padding-right: 0.5rem;
 }

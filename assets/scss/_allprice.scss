@@ -1,8 +1,75 @@
 .allPrice {
+  max-width: 500px;
   border-radius: 5px;
-  border: 2px solid $primary;
+  box-shadow: 0 0 60px rgba($color: #fff, $alpha: 0.3);
+  // border: 2px solid $primary;
+  background-color: $light2;
+  padding: 1rem 1.5rem;
+  .allpriceSeen {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed $gray1;
+    padding-bottom: 0.5rem;
+  }
+  .priceSingle {
+    .priceNumber {
+      color: $primary;
+      font-weight: bold;
+    }
+  }
   .title {
     font-size: 1.6rem;
     font-weight: bold;
+  }
+}
+.form {
+  margin: 1rem 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  color: $primary;
+}
+.radioForm {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  gap: 0 0.5rem;
+  .containerInput {
+    width: calc(33.33333% - 0.6rem);
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    input {
+      margin-left: 5px;
+    }
+  }
+}
+.btnPayContainer {
+  margin-top: 2rem;
+  .btnPrimaryCustom {
+    cursor: pointer;
+    --heightBtn: 40px;
+    display: block;
+    width: 100%;
+    min-height: var(--heightBtn);
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    word-spacing: -1px;
+    box-shadow: 0 0 20px $primary;
+    border: none;
+    background: $primary;
+    color: $white;
+    font-family: "iransans";
+    border-radius: var(--heightBtn);
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    &:hover {
+      box-shadow: none;
+      background: transparent;
+      border: 1px solid $primary;
+      color: $primary;
+    }
   }
 }

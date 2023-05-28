@@ -1,54 +1,10 @@
 .cart {
-  .listPrroducts {
-    th {
-      font-weight: normal;
-      white-space: nowrap;
-    }
-    tbody {
-      th {
-        border-color: $light2;
-      }
-      td {
-        border-color: $light2;
-      }
-    }
-
-    td {
-      .inputCustom {
-        outline: none;
-        box-shadow: none;
-        border: none;
-        background: $light2;
-        direction: rtl;
-        width: 100px;
-      }
-
-      font-size: 0.9rem;
-      white-space: nowrap;
-      vertical-align: middle;
-    }
-
-    .coverProduct {
-      width: 100px;
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    .nameProduct {
-      max-width: 300px;
-      white-space: normal;
-    }
-    .deleteBtn {
-      vertical-align: middle;
-      img {
-        min-width: 15px;
-      }
-    }
-    .price p {
-      margin-bottom: 0;
-      color: $primary;
-      font-weight: bold;
-    }
-  }
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .btnPrimaryCustom {
