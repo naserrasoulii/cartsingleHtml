@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "iransans";
+  src: url("./../fonts/iransans/woff2/IRANSansWeb.woff2"), url("./../fonts/iransans/woff/IRANSansWeb.woff"), url("./../fonts/iransans/ttf/IRANSansWeb.ttf"), url("./../fonts/iransans/eot/IRANSansWeb.eot");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "iransans";
+  src: url("./../fonts/iransans/woff2/IRANSansWebBold.woff2"), url("./../fonts/iransans/woff/Bold.woff"), url("./../fonts/iransans/ttf/IRANSansWebBold.ttf"), url("./../fonts/iransans/eot/IRANSansWebBold.eot");
+  font-weight: bold;
+}
+:root {
+  --primary: #0082fd;
+  --white: #fff;
+  --light1: #ffffffe6;
+  --light2: #9ceaef;
+}
+
+.step {
+  background: var(--primary);
+}
+.step nav ol {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+.step nav ol .breadcrumb-item + .breadcrumb-item::before {
+  color: var(--light1);
+  opacity: 0.5;
+}
+.step nav ol li {
+  color: var(--light1);
+}
+.step nav ol li.active {
+  color: var(--white);
+}
+.step nav ol li.active a {
+  opacity: 1;
+}
+.step nav ol li a {
+  opacity: 0.5;
+  color: var(--light1);
+}
+
+.cart .listPrroducts th {
+  font-weight: normal;
+  white-space: nowrap;
+}
+.cart .listPrroducts tbody th {
+  border-color: var(--light2);
+}
+.cart .listPrroducts tbody td {
+  border-color: var(--light2);
+}
+.cart .listPrroducts td {
+  font-size: 0.9rem;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.cart .listPrroducts td .inputCustom {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background: var(--light2);
+  direction: rtl;
+  width: 100px;
+}
+.cart .listPrroducts .coverProduct {
+  width: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cart .listPrroducts .nameProduct {
+  max-width: 300px;
+  white-space: normal;
+}
+.cart .listPrroducts .deleteBtn {
+  vertical-align: middle;
+}
+.cart .listPrroducts .deleteBtn img {
+  min-width: 15px;
+}
+.cart .listPrroducts .price p {
+  margin-bottom: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.btnPrimaryCustom {
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  word-spacing: -1px;
+  box-shadow: 0 0 6px var(--primary);
+  border: none;
+  background: var(--primary);
+  color: var(--white);
+}
+
+.btnLightcustom {
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  word-spacing: -1px;
+  box-shadow: 0 0 6px var(--light2);
+  border: none;
+  background: var(--light2);
+  color: #000;
+}
+
+.discountBox .inputCustom {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background: var(--light2);
+  direction: rtl;
+  width: 200px;
+}
+.discountBox .inputCustom:focus::placeholder {
+  padding-right: 3px;
+}
+.discountBox .inputCustom::placeholder {
+  transition: all 0.2s;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  word-spacing: -1px;
+}
+
+.allPrice {
+  border-radius: 5px;
+  border: 2px solid var(--primary);
+}
+.allPrice .title {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+body {
+  font-family: "iransans";
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

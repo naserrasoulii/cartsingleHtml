@@ -1,0 +1,92 @@
+.cart {
+  .listPrroducts {
+    th {
+      font-weight: normal;
+      white-space: nowrap;
+    }
+    tbody {
+      th {
+        border-color: $light2;
+      }
+      td {
+        border-color: $light2;
+      }
+    }
+
+    td {
+      .inputCustom {
+        outline: none;
+        box-shadow: none;
+        border: none;
+        background: $light2;
+        direction: rtl;
+        width: 100px;
+      }
+
+      font-size: 0.9rem;
+      white-space: nowrap;
+      vertical-align: middle;
+    }
+
+    .coverProduct {
+      width: 100px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .nameProduct {
+      max-width: 300px;
+      white-space: normal;
+    }
+    .deleteBtn {
+      vertical-align: middle;
+      img {
+        min-width: 15px;
+      }
+    }
+    .price p {
+      margin-bottom: 0;
+      color: $primary;
+      font-weight: bold;
+    }
+  }
+}
+
+.btnPrimaryCustom {
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  word-spacing: -1px;
+  box-shadow: 0 0 6px $primary;
+  border: none;
+  background: $primary;
+  color: $white;
+}
+.btnLightcustom {
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  word-spacing: -1px;
+  box-shadow: 0 0 6px $light2;
+  border: none;
+  background: $light2;
+  color: #000;
+}
+.discountBox {
+  .inputCustom {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background: $light2;
+    direction: rtl;
+    width: 200px;
+    &:focus {
+      &::placeholder {
+        padding-right: 3px;
+      }
+    }
+    &::placeholder {
+      transition: all 0.2s;
+      font-size: 0.9rem;
+      letter-spacing: 0;
+      word-spacing: -1px;
+    }
+  }
+}
