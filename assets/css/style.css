@@ -150,6 +150,32 @@ body {
   color: var(--primary);
 }
 
+@media (max-width: 556px) {
+  .allPrice {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem 0.5rem;
+  }
+  .allPrice .allpriceSeen {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 0.5rem;
+  }
+  .allPrice .allpriceSeen > p {
+    width: 100%;
+    text-align: center;
+  }
+  .allPrice .title {
+    text-align: center;
+  }
+  .form {
+    font-size: 1.3rem;
+  }
+  .radioForm .containerInput {
+    width: calc(50% - 0.6rem);
+    padding: 0.3rem;
+  }
+}
 a {
   text-decoration: none;
 }
