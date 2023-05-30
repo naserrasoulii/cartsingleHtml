@@ -1,6 +1,6 @@
 @media (max-width: 556px) {
   .allPrice {
-    max-width: 90%;
+    // width: 100%;
     margin: 0 auto;
     padding: 0.5rem 0.5rem;
     .allpriceSeen {
@@ -25,5 +25,9 @@
       width: calc(50% - 0.6rem);
       padding: 0.3rem;
     }
+  }
+  .successPay {
+    text-align: center;
+    padding: 0 1rem !important;
   }
 }

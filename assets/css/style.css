@@ -150,9 +150,21 @@ body {
   color: var(--primary);
 }
 
+.successPay {
+  padding: 0 3rem !important;
+}
+.successPay .imageContainer11 {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
 @media (max-width: 556px) {
   .allPrice {
-    max-width: 90%;
     margin: 0 auto;
     padding: 0.5rem 0.5rem;
   }
@@ -174,6 +186,10 @@ body {
   .radioForm .containerInput {
     width: calc(50% - 0.6rem);
     padding: 0.3rem;
+  }
+  .successPay {
+    text-align: center;
+    padding: 0 1rem !important;
   }
 }
 a {
