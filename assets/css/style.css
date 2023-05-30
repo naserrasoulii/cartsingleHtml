@@ -165,6 +165,7 @@ body {
 
 @media (max-width: 556px) {
   .allPrice {
+    max-width: 90%;
     margin: 0 auto;
     padding: 0.5rem 0.5rem;
   }
