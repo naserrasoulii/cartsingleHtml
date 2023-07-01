@@ -250,33 +250,14 @@
                 </div>
                 <div class="btnPayContainer">
                     <button class=" btnPrimaryCustom">
-                        تکمیل
+                        تکمیل خرید
                     </button>
                 </div>
             </div>
         </div>
     </section>
     <!-- Section Cart End -->
-    <script>
-        const labels = document.querySelectorAll(".radioForm .containerInput label");
-        const checkbox = document.querySelectorAll(".radioForm .containerInput input");
 
-        if (labels) {
-            let x = 0;
-            labels.forEach((item) => {
-                x++;
-                item.setAttribute("for", `lb${x}`);
-            });
-        }
-        if (checkbox) {
-            let x = 0;
-            checkbox.forEach((item) => {
-                x++;
-                item.setAttribute("id", `lb${x}`);
-            });
-        }
-
-    </script>
 </body>
 
 </html>
